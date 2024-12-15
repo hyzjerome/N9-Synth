@@ -1,7 +1,7 @@
 <Cabbage>.
 form caption("Untitled") size(400, 300), guiMode("queue"), pluginId("def1")
 
-image bounds(0, 0, 400, 300) channel("image10004") file("IMG_3832.PNG")
+image bounds(0, 0, 400, 300) channel("image10004") file("N9.PNG")
 keyboard bounds(8, 246, 384, 54) channel("keyboard3") mouseOverKeyColour(00, 115, 210, 255)
 rslider bounds(298, 98, 80, 80) channel("cutoff") range(1, 20000, 10000, 1, 0.001) text("CutOff") textColour(255, 255, 255, 255) trackerColour(0, 115, 210, 255)
 groupbox bounds(16, 108, 165, 87) channel("groupbox10005") text("Delay") textColour(255, 255, 255, 255) fontColour(255, 255, 255, 255)
