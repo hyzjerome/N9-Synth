@@ -1,7 +1,7 @@
 <Cabbage>.
 form caption("Untitled") size(400, 300), guiMode("queue"), pluginId("def1")
 
-image bounds(0, 0, 400, 300) channel("image10004") file("N9.PNG")
+image bounds(0, 0, 400, 300) channel("image10004") file("N9-Synth/N9.PNG")
 keyboard bounds(8, 246, 384, 54) channel("keyboard3") mouseOverKeyColour(00, 115, 210, 255)
 rslider bounds(298, 98, 80, 80) channel("cutoff") range(1, 20000, 10000, 1, 0.001) text("CutOff") textColour(255, 255, 255, 255) trackerColour(0, 115, 210, 255)
 groupbox bounds(16, 108, 165, 87) channel("groupbox10005") text("Delay") textColour(255, 255, 255, 255) fontColour(255, 255, 255, 255)
@@ -110,3 +110,22 @@ i "delay" 0 100000
 e
 </CsScore>
 </CsoundSynthesizer>
+
+
+<bsbPanel>
+ <label>Widgets</label>
+ <objectName/>
+ <x>100</x>
+ <y>100</y>
+ <width>320</width>
+ <height>240</height>
+ <visible>true</visible>
+ <uuid/>
+ <bgcolor mode="background">
+  <r>240</r>
+  <g>240</g>
+  <b>240</b>
+ </bgcolor>
+</bsbPanel>
+<bsbPresets>
+</bsbPresets>
